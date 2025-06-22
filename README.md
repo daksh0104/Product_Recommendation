@@ -20,7 +20,24 @@ This is a machine learning-powered product recommendation system that suggests s
 - **Fuzzy Matching**: `RapidFuzz` is used to match partial or similar product names.
 - **Similarity Search**: `sklearn.NearestNeighbors` is used to find similar items.
 
----
+📊 Dataset Info
+| Column           | Description                  |
+| ---------------- | ---------------------------- |
+| `name`           | Product name                 |
+| `main_category`  | Brand or high-level category |
+| `sub_category`   | Specific category or type    |
+| `image`          | Image URL                    |
+| `link`           | Amazon or product URL        |
+| `ratings`        | Average star rating          |
+| `no_of_ratings`  | Total number of user ratings |
+| `discount_price` | Final price after discount   |
+| `actual_price`   | Original price               |
+
+🙌 Credits
+- Developed by: Daksh Bhavsar and Heli Bhavsar
+- Data sourced from: Amazon product listings
+
+
 
 
 
